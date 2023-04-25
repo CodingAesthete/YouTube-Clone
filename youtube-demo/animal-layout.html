@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Coding Aesthete</title>
+  <style>
+    .profile-picture {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: top;
+      margin-bottom: 0px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 6px;
+      margin-bottom: 2px;
+      padding-left: 6px;
+    }
+
+    .mutual-friends {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgb(90, 89, 89);
+      margin-bottom: 0px;
+      padding-left: 2px;
+      margin-left: 0px;
+    }
+
+    .add-friend {
+      background-color: rgb(45, 123, 226);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: 8px;
+      margin-left: 6px;
+      margin-bottom: 6px;
+    }
+
+    .profile {
+      width:100%;
+      margin-top: 0px;
+      vertical-align: top;
+      margin-right: 6px;
+      margin-left: 6px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+    }
+
+    .friend-img {
+      width : 100%;
+      height: 35px;
+      margin-left: 6px;
+      border-radius: 100px;
+      margin-right: 0px;
+      vertical-align: middle;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    }
+    .info-div{
+      display: grid;
+      grid-template-columns: 35px 1fr;
+      column-gap: 10px;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="profile">
+      <img class="profile-picture" src="252629977_4523799884373687_662357499801345492_n.jpg">
+      <p class="name">
+        Alex
+      </p>
+      <div class="info-div">
+        <img class="friend-img" src="fox.jpg">
+        <p class="mutual-friends">
+          6 mutual friends
+        </p>
+      </div>
+      <button class="add-friend">
+        Add Friend
+      </button>
+    </div>
+    <div class="profile">
+      <img class="profile-picture" src="sweet-cat.jpg">
+      <p class="name">
+        Günter
+      </p>
+      <div class="info-div">
+        <img class="friend-img" src="dog2.jpg">
+        <p class="mutual-friends">
+          2 mutual friends
+        </p>
+      </div>
+      <button class="add-friend">
+        Add Friend
+      </button>
+    </div>
+    <div class="profile">
+      <img class="profile-picture" src="38678-Tabby-cat-lying-with-head-up-white-background.jpg">
+      <p class="name">
+        Ludwig
+      </p>
+      <div class="info-div">
+        <img class="friend-img" src="fox.jpg">
+        <p class="mutual-friends">
+          8 mutual friends
+        </p>
+      </div>
+      <button class="add-friend">
+        Add Friend
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>

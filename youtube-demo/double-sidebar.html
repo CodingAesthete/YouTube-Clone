@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Double Sidebar</title>
+  <style>
+    .img {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+
+    }
+
+    .img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sidebar1 {
+      position: fixed;
+      background-color: rgb(100, 100, 100);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 70px;
+      padding-top: 20px;
+    }
+
+    .info {
+      color: white;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .sign {
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(209, 209, 209);
+    }
+
+    .info-flex{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .text{
+      font-size: 14px;
+      font-family: Arial;
+      color: rgb(190, 190, 190);
+      margin-bottom: 12px;
+    }
+
+    .sidebar2 {
+      position: fixed;
+      background-color: rgb(121, 121, 121);
+      top: 0;
+      bottom: 0;
+      left: 70px;
+      width: 130px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar1">
+    <div class="img-div"><img class="img" src="sweet-cat.jpg"></div>
+    <div class="img-div"><img class="img" src="fox.webp"></div>
+    <div class="img-div"><img class="img" src="dog2.jpg"></div>
+  </div>
+  <div class="sidebar2">
+    <div class="info-flex">
+      <div class="info">INFO</div>
+      <div class="sign">+</div>
+    </div>
+    <div class="text"># new-videos</div>
+    <div class="text"># updates</div>
+    <div class="text"># faq</div>
+  </div>
+</body>
+
+</html>

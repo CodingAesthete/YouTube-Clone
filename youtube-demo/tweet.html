@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tweet</title>
+  <style>
+    .img-div {
+      width: 80px;
+      height: 80px;
+    }
+
+    .img {
+      width: 100%;
+      border-radius: 40px;
+    }
+
+    .first-line {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+
+    .second-line {
+      font-size: 20px;
+    }
+
+    .tweet {
+      display: flex;
+      max-width: 450px;
+      margin: 16px;
+    }
+
+    .username {
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    .username-label {
+      font-size: 20px;
+      color: grey;
+    }
+
+    .first-line,
+    .second-line,
+    .third-line {
+      margin-bottoM: 6px;
+    }
+
+    .profile-info-div {
+      margin-top: 4px;
+      margin-left: 10px;
+    }
+
+    .third-line {
+      display: flex;
+      height: 100px;
+      flex:1;
+      margin-top: 14px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(185, 185, 185);
+      border-radius: 18px;
+      overflow:hidden
+    }
+
+    .youtube {
+      background-color: rgb(190, 190, 190);
+      width: 100px;
+      height: 100%;
+    }
+
+    .site,
+    .desc {
+      font-size: 18px;
+    }
+
+    .site {
+      color: grey;
+      margin-bottom: 8px;
+    }
+
+    .video-info {
+      padding-left: 12px;
+      flex: 1;
+    }
+    .desc{
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tweet">
+    <div class="img-div">
+      <img class="img" src="sweet-cat.jpg">
+    </div>
+    <div class="profile-info-div">
+      <div class="first-line">
+        <div class="username">
+          supersimple.dev
+        </div>
+        <div class="username-label">
+          @SuperSimpleDev
+        </div>
+      </div>
+      <div class="second-line">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="third-line">
+        <div class="youtube"></div>
+        <div class="video-info">
+          <div class="site">
+            youtube.com
+          </div>
+          <a class="desc" href="https://www.youtube.com/" target="_blank">
+            Backend web development - a complete overview (2021)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

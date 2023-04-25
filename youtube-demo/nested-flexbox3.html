@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Profiles</title>
+  <style>
+    .title-div {
+      margin-bottom: 20px;
+    }
+
+    .profile-div {
+      margin-bottom: 20px;
+      margin-right: 16px;
+    }
+
+    .title {
+      font-family: Arial;
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 30px;
+    }
+
+    .window {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(156, 156, 156);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      flex:1;
+      max-width:400px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .first-line {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 300px;
+    }
+    p,
+    .label {
+      margin: 0;
+    }
+
+    .underlabel,
+    .description {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    .label {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <div class="title-div">
+      <p class="title">ALL INBOXES</p>
+    </div>
+    <div class="flex">
+      <div class="profile-div">
+        <img class="img" src="sweet-cat.jpg">
+      </div>
+      <div class="profile-info">
+        <div class="first-line">
+          <div class="label">
+            Chewy Promotions
+          </div>
+          <div class="time">
+            4:58 PM
+          </div>
+        </div>
+        <div class="underlabel">
+          <p>Biggest sales of the year!</p>
+        </div>
+        <div class="description">
+          <p>Hey there! We're writing to tell you about out...</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex">
+        <div class="profile-div">
+          <img class="img" src="fox.jpg">
+        </div>
+        <div class="profile-info">
+          <div class="first-line">
+            <div class="label">
+              Best Buy
+            </div>
+            <div class="time">
+              12:32 PM
+            </div>
+          </div>
+          <div class="underlabel">
+            <p>Your Best buy eReceipt</p>
+          </div>
+          <div class="description">
+            <p>Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex">
+        <div class="profile-div">
+          <img class="img" src="dog2.jpg">
+        </div>
+        <div class="profile-info">
+          <div class="first-line">
+            <div class="label">
+              Netflix
+            </div>
+            <div class="time">
+              9:00 AM
+            </div>
+          </div>
+          <div class="underlabel">
+            <p>Here's what's coming soon to Netflix</p>
+          </div>
+          <div class="description">
+            <p>Brand new movies and shows, old movies...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
